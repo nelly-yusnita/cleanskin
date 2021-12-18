@@ -1,0 +1,46 @@
+ide design ->
+https://preview.themeforest.net/item/cleanskin-handmade-organic-soap-natural-cosmetics-shop-wordpress-theme/full_screen_preview/22979942?clickid=RzkzjQyzXxyLWlKwUx0Mo3QgUkGzgB33QVnDW80&iradid=275988&iradtype=ONLINE_TRACKING_LINK&irgwc=1&irmptype=mediapartner&irpid=369282&mp_value1=&utm_campaign=af_impact_radius_369282&utm_medium=affiliate&utm_source=impact_radius
+
+CleanSkin - handmade organic skincare
+
+Regular 400
+Medium 500
+Semi-bold 600
+Bold 700
+
+font-family: 'Lora', serif; -> text
+font-family: 'Montserrat', sans-serif; -> title
+
+img,
+video,
+iframe{
+	max-width: 100%;
+	height: auto;
+}
+
+handmade soap and skincare 
+products made with nature's 
+finest ingredients
+
+<<discover more>>
+
+you owe yourself the
+moment of relaxation with
+our organic products
+
+<<shop now>>
+
+introducing the new technology!
+enjoy the benefits of natural
+ingredients for your body!
+
+
+I want to thank you so much for making such a product. I'm currently using the Fresh Mint soap and it is fabulous. It is great to know that your soap is vegan-friendly with no harsh additives or chemicals.
+
+JOHN ELBA
+Cosmetologist
+
+takut - idgitaf
+
+
+
