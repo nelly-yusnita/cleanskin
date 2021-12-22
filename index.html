@@ -16,15 +16,16 @@
 	<!-- ===== SWIPER CSS ===== -->
 	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-	<title>CleanSkin - handmade organic skincare</title>
+	<!-- ===== AOS ANIMATE CSS ===== -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<title>CleanSkin - Handmade Organic Skincare</title>
 </head>
 <body>
 	<!-- ===== HEADER ===== -->
 	<header class="header" id="header">
 		<nav class="nav container">
-			<a href="#" class="nav__logo">
-				<img src="assets/img/logo.webp" alt="" class="nav__logo-img">
-			</a>
+			<a href="#" class="nav__logo"><img src="assets/img/logo.webp" alt="" class="logo__img"></a>
 
 			<div class="nav__menu" id="nav-menu">
 				<ul class="nav__list">
@@ -32,28 +33,23 @@
 						<a href="#home" class="nav__link active-link">Home</a>
 					</li>
 					<li class="nav__item">
-						<a href="#bestsellers" class="nav__link">About Us</a>
+						<a href="#products" class="nav__link">Products</a>
 					</li>
 					<li class="nav__item">
-						<a href="#products" class="nav__link">Shop</a>
+						<a href="#about" class="nav__link">About Us</a>
 					</li>
 					<li class="nav__item">
-						<a href="#order" class="nav__link">Where To Buy?</a>
+						<a href="#new" class="nav__link">New</a>
 					</li>
 				</ul>
 
-				<div class="nav__close" id="nav-close">
-					<i class='bx bx-x'></i>
-				</div>
+				<img src="assets/img/nav_img.jpg" alt="" class="nav__img">
 			</div>
 
-			<div class="nav__icons">
-				<a href="#" class="nav__icon-link"><i class='bx bx-user nav__icon'></i></a>
-				<a href="#" class="nav__icon-link"><i class='bx bx-cart nav__icon'></i></a>
-			</div>
-
-			<div class="nav__toggle" id="nav-toggle">
-				<i class='bx bx-menu'></i>
+			<div class="hamburger__nav" id="menu-button">
+				<span class="hamburger__top"></span>
+				<span class="hamburger__middle"></span>
+				<span class="hamburger__bottom"></span>
 			</div>
 		</nav>
 	</header>
@@ -69,9 +65,9 @@
 					<div class="swiper-slide">
 						<div class="home__slide home__slide1">
 							<div class="home__data container">
-								<h1 class="home__title">handmade soap and skincare<br>products made with nature's<br>finest ingredients</h1>
+								<h1 class="home__title" data-aos="fade-down">Handmade Soap and Skincare<br>Products Made with Nature's<br>Finest Ingredients</h1>
 								<div class="button home__button">
-									<a href="#" class="home__button-link">discover more</a>
+									<a href="#" class="button__link">Discover More</a>
 								</div>
 							</div>
 						</div>
@@ -80,9 +76,9 @@
 					<div class="swiper-slide">
 						<div class="home__slide home__slide2">
 							<div class="home__data container">
-								<h1 class="home__title">you owe yourself the<br>moment of relaxation with<br>our organic products</h1>
+								<h1 class="home__title" data-aos="fade-down">You Owe Yourself the<br>Moment of Relaxation with<br>our Organic Products</h1>
 								<div class="button home__button">
-									<a href="#" class="home__button-link">discover more</a>
+									<a href="#" class="button__link">Discover More</a>
 								</div>
 							</div>
 						</div>
@@ -91,9 +87,9 @@
 					<div class="swiper-slide">
 						<div class="home__slide home__slide3">
 							<div class="home__data container">
-								<h1 class="home__title">introducing the new technology!<br>enjoy the benefits of natural<br>ingredients for your body!</h1>
+								<h1 class="home__title" data-aos="fade-down">Introducing the New Technology!<br>Enjoy the Benefits of Natural<br>Ingredients for Your Body!</h1>
 								<div class="button home__button">
-									<a href="#" class="home__button-link">discover more</a>
+									<a href="#" class="button__link">Discover More</a>
 								</div>
 							</div>
 						</div>
@@ -121,7 +117,7 @@
 					<div class="fitur__icon-box">
 						<i class='bx bx-gift fitur__icon' ></i>
 					</div>
-					<span class="fitur__description">BEAUTIFULLY PACKED</span>
+					<span class="fitur__title">BEAUTIFULLY PACKED</span>
 					<div class="fitur__line"></div>
 					<span class="fitur__description">Each product is gently packed in a stylish colorful wrap.</span>
 				</div>
@@ -130,7 +126,7 @@
 					<div class="fitur__icon-box">
 						<i class='bx bxs-hand fitur__icon'></i>
 					</div>
-					<span class="fitur__description">TRULY HANDMADE</span>
+					<span class="fitur__title">TRULY HANDMADE</span>
 					<div class="fitur__line"></div>
 					<span class="fitur__description">Everything in our shop is made by hand and with great care.</span>
 				</div>
@@ -139,7 +135,7 @@
 					<div class="fitur__icon-box">
 						<i class='bx bxs-leaf fitur__icon'></i>
 					</div>
-					<span class="fitur__description">100% ORGANIC</span>
+					<span class="fitur__title">100% ORGANIC</span>
 					<div class="fitur__line"></div>
 					<span class="fitur__description">Our soap is free of anything synthetic or anything artificial.</span>
 				</div>
@@ -230,16 +226,6 @@
 							<img src="assets/img/sponsor6.webp" alt="">
 						</div>
 					</div>
-					<div class="swiper-slide">
-						<div class="sponsor__content">
-							<img src="assets/img/sponsor7.webp" alt="">
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="sponsor__content">
-							<img src="assets/img/sponsor8.webp" alt="">
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -247,9 +233,9 @@
 
 		<!-- ===== BANNER ===== -->
 		<section class="banner">
-			<img src="assets/img/banner_img.jpg" alt="" class="banner__img">
+			<img src="assets/img/nav_img.jpg" alt="" class="banner__img" data-aos="fade-right">
 			<div class="banner__container container">
-				<div class="banner__data">
+				<div class="banner__data" data-aos="fade-left" data-aos-delay="100">
 					<h2 class="banner__title">CREATE YOUR OWN PERFECT SOAP!</h2>
 					<span class="banner__description">We are beyond excited to announce the upcoming classes at our retail shop & studio! Bring your friends and your family to spend the coolest two hours crafting your own soap or organic cosmetics at our master class. Feel free to give us a free call!</span>
 					<div class="button banner__button">
@@ -260,54 +246,54 @@
 		</section>
 		<!-- ===== end banner ===== -->
 
-		<!-- ===== INFO ===== -->
-		<section class="info section container">
-			<div class="info__container grid">
-				<div class="info__content">
-					<div class="info__data">
+		<!-- ===== ABOUT ===== -->
+		<section class="about section container" id="about">
+			<div class="about__container grid" data-aos="fade-down">
+				<div class="about__content">
+					<div class="about__data">
 						<div>
-							<h2 class="info__title">THE BEST OF CLEANSKIN</h2>
-							<span class="info__description">Handmade soap is exactly that made by hand. They are made with vegetable oil and/or animals fats for their skin care properties. The soapmaker will often include additives to the soap for their healing, exfoliating and esthetic properties.</span>
-							<div class="button info__button">
-								<a href="#" class="info__button-link">shop best products</a>
+							<h2 class="about__title">THE BEST OF CLEANSKIN</h2>
+							<span class="about__description">Handmade soap is exactly that made by hand. They are made with vegetable oil and/or animals fats for their skin care properties. The soapmaker will often include additives to the soap for their healing, exfoliating and esthetic properties.</span>
+							<div class="button about__button">
+								<a href="#" class="about__button-link">shop best products</a>
 							</div>
 						</div>
 					</div>
-					<div class="info__img">
-						<img src="assets/img/info1.png" alt="" class="info__img1">
-						<div class="info__img-data">
-							<h2 class="info__img-title">OAT MEAL</h2>
-							<span class="info__img-price">Rp. 80.000,-</span>
-							<a href="#"><i class='bx bx-cart info__img-icon'></i></a>
+					<div class="about__img">
+						<img src="assets/img/about_img1.png" alt="" class="about__img1">
+						<div class="about__img-data">
+							<h2 class="about__img-title">OAT MEAL</h2>
+							<span class="about__img-price">Rp. 80.000,-</span>
+							<a href="#"><i class='bx bx-cart about__img-icon'></i></a>
 						</div>
 					</div>
 				</div>
 
-				<div class="info__content">
-					<div class="info__img">
-						<img src="assets/img/info2.png" alt="" class="info__img2">
-						<div class="info__img-data">
-							<h2 class="info__img-title">ROSEMARY</h2>
-							<span class="info__img-price">Rp. 60.000,-</span>
-							<a href="#"><i class='bx bx-cart info__img-icon'></i></a>
+				<div class="about__content">
+					<div class="about__img">
+						<img src="assets/img/about_img2.png" alt="" class="about__img2">
+						<div class="about__img-data">
+							<h2 class="about__img-title">ROSEMARY</h2>
+							<span class="about__img-price">Rp. 60.000,-</span>
+							<a href="#"><i class='bx bx-cart about__img-icon'></i></a>
 						</div>
 					</div>
-					<div class="info__data">
+					<div class="about__data">
 						<div>
-							<h2 class="info__title">BALANCE FOR SENSITIVE SKIN</h2>
-							<span class="info__description">Handmade soap is exactly that made by hand. They are made with vegetable oil and/or animals fats for their skin care properties. The soapmaker will often include additives to the soap for their healing, exfoliating and esthetic properties.</span>
-							<div class="button info__button">
-								<a href="#" class="info__button-link">shop best products</a>
+							<h2 class="about__title">BALANCE FOR SENSITIVE SKIN</h2>
+							<span class="about__description">Handmade soap is exactly that made by hand. They are made with vegetable oil and/or animals fats for their skin care properties. The soapmaker will often include additives to the soap for their healing, exfoliating and esthetic properties.</span>
+							<div class="button about__button">
+								<a href="#" class="about__button-link">shop best products</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- ===== end info ===== -->
+		<!-- ===== end about ===== -->
 
 		<!-- ===== NEW PRODUCTS ===== -->
-		<section class="new section container">
+		<section class="new section container" id="new">
 			<h2 class="section-title">NEW PRODUCTS</h2>
 
 			<div class="new__container grid">
@@ -358,7 +344,7 @@
 		<!-- ===== TESTIMONIAL ===== -->
 		<section class="testimonial">
 			<h2 class="section-title container">CLIENTS ABOUT US</h2>
-			<div class="testimonial__container swiper">
+			<div class="testimonial__container swiper" data-aos="fade-down" data-aos-delay="100">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="testimonial__content container">
@@ -379,7 +365,7 @@
 						<div class="testimonial__content container">
 							<p class="testimonial__description">I have had no dermatological problems as long as I use the ClenSkin Soap. I'm a fan of your products! I love the way my skin feels, never dry, just very soft and silky. I will definitely continue to use the wonderful soap! Thank you!</p>
 							<div class="testimonial__up">
-								<img src="assets/img/quotation.png" alt="" class="quotation">
+								<i class='bx bxs-quote-alt-right quotation__icon'></i>
 							</div>
 							<div class="testimonial__down">
 								<img src="assets/img/testimoni2.jpg" alt="" class="testi__photo">
@@ -394,7 +380,7 @@
 						<div class="testimonial__content container">
 							<p class="testimonial__description">My skin has been very dry for years, and since I have been buying this soap. It has become very soft. Thanks for using natural ingredients and essential oils in your products! I couldn't be more pleased with this soaps.</p>
 							<div class="testimonial__up">
-								<img src="assets/img/quotation.png" alt="" class="quotation">
+								<i class='bx bxs-quote-alt-right quotation__icon'></i>
 							</div>
 							<div class="testimonial__down">
 								<img src="assets/img/testimoni3.jpg" alt="" class="testi__photo">
@@ -414,7 +400,7 @@
 		<section class="subscribe__contact grid">
 			<!-- Subscribe -->
 			<div class="subscribe__container">
-				<div class="container subscribe__content">
+				<div class="container subscribe__content" data-aos="fade-right">
 					<h2 class="subscribe__title">STAY TUNED FOR UPDATES</h2>
 					<form action="" class="subscribe__form">
 						<input type="text" placeholder="Your Email" class="subscribe__input">
@@ -424,7 +410,7 @@
 			</div>
 			<!-- Contact -->
 			<div class="contact__container">
-				<div class="container contact__content">
+				<div class="container contact__content" data-aos="fade-left">
 					<h2 class="subscribe__title">CONTACT US</h2>
 					<div class="contact__info">
 						<i class='bx bx-store contact__icon'></i>
@@ -454,7 +440,6 @@
 	<!-- ===== FOOTER ===== -->
 	<footer class="footer container">
 		<div class="footer__container">
-			<div class="footer__copy">&#169; 2021 &mdash; CleanSkin</div>
 			<div class="footer__sosmed">
 				<a href="#" class="footer__sosmed-link">
 					<i class='bx bxl-facebook footer__sosmed-icon'></i>
@@ -469,6 +454,7 @@
 					<i class='bx bxl-instagram footer__sosmed-icon'></i>
 				</a>
 			</div>
+			<div class="footer__copy">&#169; 2021 &mdash; CleanSkin</div>
 		</div>
 	</footer>
 	<!-- ===== end footer ===== -->
@@ -481,6 +467,9 @@
 
 	<!-- ===== SWIPER JS ===== -->
 	<script src="assets/js/swiper-bundle.min.js"></script>
+
+	<!-- ===== AOS ANIMATE JS ===== -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 	<!-- ===== MAIN JS ===== -->
 	<script src="assets/js/script.js"></script>
