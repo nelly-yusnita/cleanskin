@@ -524,6 +524,7 @@ button{
 /* ===== SPONSOR ===== */
 .sponsor{
 	margin-top: 3.5rem;
+	margin-bottom: 2rem;
 }
 .sponsor .swiper-slide{
 	display: -webkit-box;
@@ -870,6 +871,12 @@ iframe{
 	font-size: var(--smaller-font-size);
 	margin-top: 1.5rem;
 }
+.footer__note{
+	display: block;
+	font-size: var(--smaller-font-size);
+	text-align: center;
+	margin: 3rem 0 2.5rem;
+}
 .footer__portfolio-link{
 	color: var(--gray-color);
 }
@@ -1110,6 +1117,7 @@ iframe{
 	}
 	.footer__copy{
 		order: -1;
+		margin-top: 0;
 	}
 	/* ===== end footer ===== */
 }
